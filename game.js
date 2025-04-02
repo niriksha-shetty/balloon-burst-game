@@ -28,7 +28,7 @@ function preload() {
     for (let i = 1; i <= 10; i++) { this.load.image(`balloon${i}`, `./graphics/balloon${i}.png`); }
     for (let charCode = 65; charCode <= 90; charCode++) {
         let letter = String.fromCharCode(charCode);
-        this.load.image(`letter_${letter}`, `graphics/${letter}.png`);
+        this.load.image(`letter_${letter}`, `./graphics/${letter}.png`);
     }
 }
 
